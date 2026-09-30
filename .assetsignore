@@ -1,0 +1,8 @@
+.git
+.gitignore
+.assetsignore
+serve.js
+wrangler.jsonc
+*.zip
+Thumbs.db
+.DS_Store
