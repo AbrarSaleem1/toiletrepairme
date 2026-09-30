@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | MaineToilet Repair Co.</title>
+    <meta name="description" content="Practical guides and local tips for Toilet Repair.">
+    <meta name="author" content="MaineToilet Repair Co.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://toiletrepairme.com/blog">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Blog | MaineToilet Repair Co.">
+    <meta property="og:description" content="Practical guides and local tips for Toilet Repair.">
+    <style>
+    .blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.75rem;}
+    .blog-card{display:flex;flex-direction:column;background:var(--white);border:1px solid var(--line);border-radius:calc(var(--radius) * 2);overflow:hidden;text-decoration:none;color:inherit;box-shadow:var(--shadow);transition:transform .25s ease;}
+    .blog-card:hover{transform:translateY(-4px);}
+    .blog-card-media{height:210px;background-size:cover;background-position:center;}
+    .blog-card-body{padding:1.6rem;}
+    .blog-card-tag{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);}
+    .blog-card h3{font-family:var(--font-serif);font-size:1.2rem;margin:.6rem 0 .7rem;color:var(--ink);}
+    .blog-card p{color:var(--muted);font-size:.93rem;margin:0 0 1rem;}
+    .blog-card-more{font-weight:600;color:var(--orange);}
+  </style>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2032%2032%27%3E%3Crect%20width=%2732%27%20height=%2732%27%20rx=%277%27%20fill=%27%23f6a97f%27/%3E%3Ctext%20x=%2716%27%20y=%2723%27%20font-family=%27Arial,sans-serif%27%20font-size=%2719%27%20font-weight=%27700%27%20fill=%27%23ffffff%27%20text-anchor=%27middle%27%3EM%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
+    <link rel="stylesheet" href="../assets/global.css" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" /><style>[data-sal]{opacity:1 !important;transform:none !important;}</style></noscript>
+  <!--rl-leads--><script>window.__RL_LEADS={siteId:"6abcb0ce0500e09d46456160",apiBase:"https://ranklocal.cc",turnstileSiteKey:""};</script><script>
+(function(){
+  function cfg(){
+    var c=window.__RL_LEADS||{};
+    var base=String(c.apiBase||''); var siteId=String(c.siteId||'');
+    if(base.indexOf('http')!==0) return null;
+    if(!siteId||siteId.indexOf('{{')!==-1) return null;
+    var key=String(c.turnstileSiteKey||''); if(key.indexOf('{{')!==-1) key='';
+    while(base.length&&base.charAt(base.length-1)==='/') base=base.slice(0,-1);
+    return {apiBase:base,siteId:siteId,ts:key};
+  }
+  var C=cfg(); if(!C) return;
+  var TS={loading:false,loaded:false,q:[]};
+  function loadTs(cb){
+    if(TS.loaded&&window.turnstile) return cb();
+    TS.q.push(cb); if(TS.loading) return; TS.loading=true;
+    window.__rlTsReady=function(){TS.loaded=true;TS.q.forEach(function(f){f();});TS.q=[];};
+    var s=document.createElement('script');
+    s.src='https://challenges.cloudflare.com/turnstile/v0/api.js?onload=__rlTsReady&render=explicit';
+    s.async=true; s.defer=true; document.head.appendChild(s);
+  }
+  function mountTs(form){
+    if(!C.ts||form.__rlTs) return; form.__rlTs=true;
+    var box=document.createElement('div'); box.className='rl-turnstile'; box.style.margin='10px 0';
+    var sb=form.querySelector('button[type=submit],input[type=submit]');
+    if(sb&&sb.parentNode) sb.parentNode.insertBefore(box,sb); else form.appendChild(box);
+    loadTs(function(){ try{ window.turnstile.render(box,{sitekey:C.ts,size:'flexible'}); }catch(e){} });
+  }
+  function ensureHp(form){
+    if(form.querySelector('[name=_hp]')) return;
+    var i=document.createElement('input'); i.type='text'; i.name='_hp'; i.tabIndex=-1;
+    i.setAttribute('autocomplete','off'); i.setAttribute('aria-hidden','true');
+    i.style.cssText='position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none';
+    form.appendChild(i);
+  }
+  function setup(){
+    var forms=document.querySelectorAll('form[data-rl-lead]');
+    for(var i=0;i<forms.length;i++){ (function(f){
+      ensureHp(f);
+      if(C.ts){ f.addEventListener('focusin',function(){mountTs(f);},{once:true}); }
+    })(forms[i]); }
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup); else setup();
+  document.addEventListener('submit',function(e){
+    var f=e.target;
+    if(!f||!f.matches||!f.matches('form[data-rl-lead]')) return;
+    var hp=f.querySelector('[name=_hp]'); if(hp&&hp.value) return;
+    var data={}; var els=f.querySelectorAll('input,textarea,select');
+    for(var i=0;i<els.length;i++){ var el=els[i]; var n=el.name;
+      if(!n||n==='_hp'||n==='cf-turnstile-response') continue; data[n]=el.value; }
+    data.pageUrl=window.location.href;
+    var tok=f.querySelector('[name=cf-turnstile-response]'); if(tok&&tok.value) data.turnstileToken=tok.value;
+    try{ fetch(C.apiBase+'/api/leads/'+encodeURIComponent(C.siteId),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data),keepalive:true}).catch(function(){}); }catch(_e){}
+  },true);
+})();
+</script>
+</head>
+  <body id="top">
+    
+<div id="navbar-container">
+  <header class="site-header">
+    <div class="utility-bar">
+      <div class="shell utility-inner">
+        <p><span class="status-dot"></span> Licensed, insured &amp; ready 24/7</p>
+        <div><span><a href="mailto:info@toiletrepairme.com" style="color:inherit;text-decoration:none;">info@toiletrepairme.com</a></span><span>Open 24 hours &middot; 7 days a week</span></div>
+      </div>
+    </div>
+    <nav class="main-nav shell" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="MaineToilet Repair Co. home">
+        <span class="brand-mark">M</span>
+        <span>MaineToilet Repair Co.<small>TOILET REPAIR</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+        <span></span><span></span><span></span><span class="sr-only">Toggle menu</span>
+      </button>
+      <div class="nav-links" id="site-menu">
+        <button class="nav-close" type="button" aria-label="Close menu"><span></span><span></span></button>
+        <a href="/">Home</a>
+        <span class="nav-dd">
+        <a href="../services">Services <span class="nav-dd-caret">&#9662;</span></a>
+        <div class="nav-dd-panel">
+          <!-- RL-AUTO:nav-services START -->
+<a href="../toilet-leak-repair">Toilet Leak Repair</a><a href="../clogged-toilet-unclogging">Clogged Toilet Unclogging</a><a href="../running-toilet-repair">Running Toilet Repair</a><a href="../flapper-and-fill-valve-replacement">Flapper and Fill Valve Replacement</a><a href="../flange-repair">Flange Repair</a><a href="../emergency-toilet-repair">Emergency Toilet Repair</a><a href="../commercial-toilet-repair">Commercial Toilet Repair</a>
+<!-- RL-AUTO:nav-services END -->
+          <a class="nav-dd-all" href="../services">All services &rarr;</a>
+        </div>
+      </span>
+        <a href="../about">About</a>
+        <span class="nav-dd">
+        <a href="../locations">Areas <span class="nav-dd-caret">&#9662;</span></a>
+        <div class="nav-dd-panel">
+          <a href="../toilet-repair-portland">Portland</a><a href="../toilet-repair-lewiston">Lewiston</a><a href="../toilet-repair-bangor">Bangor</a><a href="../toilet-repair-south-portland">South Portland</a><a href="../toilet-repair-auburn">Auburn</a><a href="../toilet-repair-biddeford">Biddeford</a><a href="../toilet-repair-sanford">Sanford</a><a href="../toilet-repair-saco">Saco</a><a href="../toilet-repair-westbrook">Westbrook</a><a href="../toilet-repair-augusta">Augusta</a>
+          <a class="nav-dd-all" href="../locations">All service areas &rarr;</a>
+        </div>
+      </span>
+        <a href="../blog">Blog</a>
+        <a href="../contact">Contact</a>
+      </div>
+      <a class="nav-call" href="tel:+18338450906"><span class="phone-icon">&#8599;</span><span><small>Talk to a pro</small>+18338450906</span></a>
+    </nav>
+  </header>
+</div>
+    <main>
+      
+    
+<div id="hero-container">
+  <section class="location-hero">
+    <div class="location-hero-image" style="background-image:url('../assets/images/gen/index-a09d10ff.webp');" aria-hidden="true"></div>
+    <div class="location-hero-overlay"></div>
+    <div class="shell location-hero-inner">
+      <div class="location-hero-copy" data-sal="slide-up" data-sal-duration="650">
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><strong>Blog</strong></nav>
+        <span class="eyebrow eyebrow-light"><span></span> From the blog</span>
+        <h1>Toilet Repair insights</h1>
+        <p>Practical guides and local tips for Toilet Repair.</p>
+      </div>
+      
+    </div>
+  </section>
+</div>
+    <section class="section section-ivory">
+      <div class="shell"><div class="blog-grid">
+      <a class="blog-card" href="../blog/why-is-my-toilet-leaking-in-portland">
+        <div class="blog-card-media" style="background-image:url('../assets/images/gen/mainetoilet-repair-co-ready-to-serve-calais-6127fef9.webp');"></div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Repair Tips</span>
+          <h3>Why is my toilet leaking in Portland?</h3>
+          <p>Learn the primary reasons for toilet leaks in Portland and how Maine Toilet Repair can help you fix them quickly.</p>
+          <span class="blog-card-more">Read more &#8594;</span>
+        </div>
+      </a>
+      <a class="blog-card" href="../blog/how-to-fix-a-clogged-toilet-in-lewiston">
+        <div class="blog-card-media" style="background-image:url('../assets/images/clogged-toilet-auger-service-1.jpg');"></div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Repair Tips</span>
+          <h3>How to fix a clogged toilet in Lewiston</h3>
+          <p>Fixing a clogged toilet in Lewiston is straightforward with the right tools and techniques. This guide provides step-by-step instructions to help you resolve the issue quickly.</p>
+          <span class="blog-card-more">Read more &#8594;</span>
+        </div>
+      </a>
+      <a class="blog-card" href="../blog/toilet-repair-cost-in-maine-what-to-expect">
+        <div class="blog-card-media" style="background-image:url('../assets/images/gen/mainetoilet-repair-co-ready-to-serve-calais-6127fef9.webp');"></div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Repair Tips</span>
+          <h3>Toilet repair cost in Maine: what to expect</h3>
+          <p>Learn about the costs associated with toilet repair in Maine, including common issues and when to seek professional help.</p>
+          <span class="blog-card-more">Read more &#8594;</span>
+        </div>
+      </a>
+      <a class="blog-card" href="../blog/signs-your-toilet-needs-urgent-repair-in-bangor">
+        <div class="blog-card-media" style="background-image:url('../assets/images/clogged-toilet-auger-service-1.jpg');"></div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Repair Tips</span>
+          <h3>Signs your toilet needs urgent repair in Bangor</h3>
+          <p>Learn the crucial signs that indicate your toilet needs urgent repair in Bangor, ensuring your home stays functional and efficient.</p>
+          <span class="blog-card-more">Read more &#8594;</span>
+        </div>
+      </a>
+      <a class="blog-card" href="../blog/how-to-replace-a-flapper-and-fill-valve-in-south-portland">
+        <div class="blog-card-media" style="background-image:url('../assets/images/Toilet_repair-1.webp');"></div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Repair Tips</span>
+          <h3>How to replace a flapper and fill valve in South Portland</h3>
+          <p>This guide covers the steps to replace a toilet flapper and fill valve in South Portland, ensuring your toilet functions properly.</p>
+          <span class="blog-card-more">Read more &#8594;</span>
+        </div>
+      </a>
+      <a class="blog-card" href="../blog/emergency-toilet-repair-tips-for-homeowners-in-auburn">
+        <div class="blog-card-media" style="background-image:url('../assets/images/Toilet_repair_in_me-2.webp');"></div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Repair Tips</span>
+          <h3>Emergency toilet repair tips for homeowners in Auburn</h3>
+          <p>Discover crucial emergency toilet repair tips for homeowners in Auburn, ensuring you&#39;re prepared for unexpected plumbing issues.</p>
+          <span class="blog-card-more">Read more &#8594;</span>
+        </div>
+      </a>
+      <a class="blog-card" href="../blog/common-causes-of-running-toilets-and-how-to-fix-them">
+        <div class="blog-card-media" style="background-image:url('../assets/images/Toilet_repair-3.webp');"></div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Repair Tips</span>
+          <h3>Common causes of running toilets and how to fix them</h3>
+          <p>Discover the common causes of running toilets and learn how to fix them effectively with Maine Toilet Repair.</p>
+          <span class="blog-card-more">Read more &#8594;</span>
+        </div>
+      </a>
+      <a class="blog-card" href="../blog/best-practices-for-toilet-flange-repair-in-biddeford">
+        <div class="blog-card-media" style="background-image:url('../assets/images/gen/mainetoilet-repair-co-ready-to-serve-calais-6127fef9.webp');"></div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Repair Tips</span>
+          <h3>Best practices for toilet flange repair in Biddeford</h3>
+          <p>Learn the best practices for toilet flange repair in Biddeford. Discover expert tips and when to call a professional.</p>
+          <span class="blog-card-more">Read more &#8594;</span>
+        </div>
+      </a>
+      <a class="blog-card" href="../blog/how-to-identify-toilet-problems-before-they-escalate">
+        <div class="blog-card-media" style="background-image:url('../assets/images/clogged-toilet-auger-service-1.jpg');"></div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Repair Tips</span>
+          <h3>How to identify toilet problems before they escalate</h3>
+          <p>Identify common toilet problems early to avoid costly repairs. This guide covers signs to look for and when to call a professional.</p>
+          <span class="blog-card-more">Read more &#8594;</span>
+        </div>
+      </a>
+      <a class="blog-card" href="../blog/top-5-toilet-repair-tips-for-maine-homeowners">
+        <div class="blog-card-media" style="background-image:url('../assets/images/commercial-toilet-flushometer-valve.webp');"></div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Repair Tips</span>
+          <h3>Top 5 toilet repair tips for Maine homeowners</h3>
+          <p>Learn the top toilet repair tips for homeowners in Maine to ensure your toilet functions efficiently and avoid costly repairs.</p>
+          <span class="blog-card-more">Read more &#8594;</span>
+        </div>
+      </a>
+      <a class="blog-card" href="../blog/what-to-do-if-your-toilet-wont-stop-running-in-saco">
+        <div class="blog-card-media" style="background-image:url('../assets/images/gen/toilet-repair-brewer-be59f11d.webp');"></div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Repair Tips</span>
+          <h3>What to do if your toilet won&#39;t stop running in Saco</h3>
+          <p>Is your toilet running constantly in Saco? Find out the causes, fixes, and when to call a professional.</p>
+          <span class="blog-card-more">Read more &#8594;</span>
+        </div>
+      </a>
+      <a class="blog-card" href="../blog/clogged-toilet-issues-when-to-call-a-professional-in-westbrook">
+        <div class="blog-card-media" style="background-image:url('../assets/images/gen/mainetoilet-repair-co-ready-to-serve-portland-78c83a4d.webp');"></div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Repair Tips</span>
+          <h3>Clogged toilet issues: when to call a professional in Westbrook</h3>
+          <p>Discover when to call a professional for clogged toilet issues in Westbrook. Get expert insights from MaineToilet Repair Co.</p>
+          <span class="blog-card-more">Read more &#8594;</span>
+        </div>
+      </a>
+      <a class="blog-card" href="../blog/comparing-toilet-repair-services-in-augusta-and-waterville">
+        <div class="blog-card-media" style="background-image:url('../assets/images/gen/index-c6cbff74.webp');"></div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Repair Tips</span>
+          <h3>Comparing toilet repair services in Augusta and Waterville</h3>
+          <p>Discover the key differences in toilet repair services available in Augusta and Waterville, Maine, to make an informed decision.</p>
+          <span class="blog-card-more">Read more &#8594;</span>
+        </div>
+      </a>
+      <a class="blog-card" href="../blog/preventing-toilet-leaks-maintenance-tips-for-brewer-residents">
+        <div class="blog-card-media" style="background-image:url('../assets/images/gen/locations-73c23278.webp');"></div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Repair Tips</span>
+          <h3>Preventing toilet leaks: maintenance tips for Brewer residents</h3>
+          <p>Learn how Brewer residents can prevent toilet leaks with these practical maintenance tips. Keep your plumbing in top shape and avoid costly repairs.</p>
+          <span class="blog-card-more">Read more &#8594;</span>
+        </div>
+      </a>
+      <a class="blog-card" href="../blog/seasonal-toilet-maintenance-tips-for-ellsworth-homeowners">
+        <div class="blog-card-media" style="background-image:url('../assets/images/gen/locations-73c23278.webp');"></div>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Repair Tips</span>
+          <h3>Seasonal toilet maintenance tips for Ellsworth homeowners</h3>
+          <p>Discover essential seasonal toilet maintenance tips for Ellsworth homeowners to prevent issues and ensure smooth operation.</p>
+          <span class="blog-card-more">Read more &#8594;</span>
+        </div>
+      </a></div></div>
+    </section>
+    </main>
+    
+<div id="footer-container">
+  <footer class="site-footer">
+    <div class="shell footer-main">
+      <div class="footer-brand">
+        <a class="brand brand-light" href="/"><span class="brand-mark">M</span><span>MaineToilet Repair Co.<small>TOILET REPAIR</small></span></a>
+        <p>Thoughtful toilet repair service for local homes—delivered by people who care about the details.</p>
+        <a class="footer-phone" href="tel:+18338450906">+18338450906</a>
+        <div class="social-links" data-social-links><a href="#" data-social="facebook" aria-label="Facebook"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"/></svg></a><a href="#" data-social="x" aria-label="X (Twitter)"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M10.488 14.651L15.25 21h7l-7.858-10.478L20.93 3h-2.65l-5.117 5.886L8.75 3h-7l7.51 10.015L2.32 21h2.65zM16.25 19L5.75 5h2l10.5 14z"/></svg></a><a href="#" data-social="instagram" aria-label="Instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m8.65 3.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10m0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6"/></svg></a><a href="#" data-social="linkedin" aria-label="LinkedIn"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 1 0 0-3.37 1.69 1.69 0 0 0 0 3.37m1.39 9.94v-8.37H5.5v8.37z"/></svg></a><a href="#" data-social="youtube" aria-label="YouTube"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19C0 8.07 0 12 0 12s0 3.93.5 5.81a3.02 3.02 0 0 0 2.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 0 0 2.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.81M9.55 15.57V8.43L15.82 12z"/></svg></a><a href="#" data-social="tiktok" aria-label="TikTok"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.7 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.74-.1z"/></svg></a><a href="#" data-social="pinterest" aria-label="Pinterest"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.08 3.16 9.43 7.63 11.17-.11-.95-.2-2.4.04-3.44.22-.94 1.4-5.96 1.4-5.96s-.36-.72-.36-1.78c0-1.67.97-2.91 2.17-2.91 1.02 0 1.52.77 1.52 1.69 0 1.03-.66 2.57-1 4-.28 1.19.6 2.17 1.77 2.17 2.13 0 3.77-2.25 3.77-5.5 0-2.87-2.06-4.88-5.01-4.88-3.41 0-5.42 2.56-5.42 5.21 0 1.03.4 2.14.89 2.74.1.12.11.22.08.34l-.33 1.36c-.05.22-.17.27-.4.16-1.5-.7-2.44-2.89-2.44-4.65 0-3.79 2.75-7.27 7.93-7.27 4.16 0 7.4 2.97 7.4 6.93 0 4.14-2.61 7.47-6.23 7.47-1.22 0-2.36-.63-2.75-1.38l-.75 2.85c-.27 1.04-1 2.35-1.49 3.15C9.57 23.81 10.76 24 12 24c6.63 0 12-5.37 12-12S18.63 0 12 0"/></svg></a></div>
+      </div>
+      <div>
+        <h3>Services</h3>
+        <!-- RL-AUTO:footer-services START -->
+<a href="../toilet-leak-repair">Toilet Leak Repair</a><a href="../clogged-toilet-unclogging">Clogged Toilet Unclogging</a><a href="../running-toilet-repair">Running Toilet Repair</a><a href="../flapper-and-fill-valve-replacement">Flapper and Fill Valve Replacement</a><a href="../flange-repair">Flange Repair</a><a href="../emergency-toilet-repair">Emergency Toilet Repair</a>
+<!-- RL-AUTO:footer-services END -->
+      </div>
+      <div>
+        <h3>Company</h3>
+        <a href="../about">Our story</a>
+        <a href="../services">Services</a>
+        <a href="../locations">Service areas</a>
+        <a href="../contact">Contact us</a>
+        <a href="../privacy-policy">Privacy</a>
+      </div>
+      <div>
+        <h3>Visit</h3>
+        <a class="footer-address" href="https://maps.google.com/?q=210%20Roosevelt%20Trail%2C%20Windham%2C%20ME%2004062%2C%20USA%2C%20Maine" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span>210 Roosevelt Trail, Windham, ME 04062, USA, Maine</span></a>
+        <p><a href="tel:+18338450906" style="color:inherit;">+18338450906</a></p>
+        <p><a href="mailto:info@toiletrepairme.com" style="color:inherit;">info@toiletrepairme.com</a></p>
+        <p>Open 24 hours &middot; 7 days a week</p>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <span>&copy; 2026 MaineToilet Repair Co.</span>
+      <div><a href="../privacy-policy">Privacy</a><a href="../contact">Contact</a></div>
+      <span>Licensed &amp; insured</span>
+    </div>
+  </footer>
+</div>
+    
+<div id="sticky-call-button-container">
+  <a class="sticky-call" href="tel:+18338450906" aria-label="Call us +18338450906"><span><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.25 1z"/></svg></span><div><small>Tap to call</small><strong>+18338450906</strong></div></a>
+</div>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>

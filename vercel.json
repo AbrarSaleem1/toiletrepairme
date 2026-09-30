@@ -1,0 +1,406 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/blog.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/clogged-toilet-unclogging.html",
+      "destination": "/clogged-toilet-unclogging",
+      "permanent": true
+    },
+    {
+      "source": "/commercial-toilet-repair.html",
+      "destination": "/commercial-toilet-repair",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/emergency-toilet-repair.html",
+      "destination": "/emergency-toilet-repair",
+      "permanent": true
+    },
+    {
+      "source": "/flange-repair.html",
+      "destination": "/flange-repair",
+      "permanent": true
+    },
+    {
+      "source": "/flapper-and-fill-valve-replacement.html",
+      "destination": "/flapper-and-fill-valve-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/locations.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.html",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/running-toilet-repair.html",
+      "destination": "/running-toilet-repair",
+      "permanent": true
+    },
+    {
+      "source": "/services.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-leak-repair.html",
+      "destination": "/toilet-leak-repair",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-auburn.html",
+      "destination": "/toilet-repair-auburn",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-augusta.html",
+      "destination": "/toilet-repair-augusta",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-bangor.html",
+      "destination": "/toilet-repair-bangor",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-bath.html",
+      "destination": "/toilet-repair-bath",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-belfast.html",
+      "destination": "/toilet-repair-belfast",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-bethel.html",
+      "destination": "/toilet-repair-bethel",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-biddeford.html",
+      "destination": "/toilet-repair-biddeford",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-bradley.html",
+      "destination": "/toilet-repair-bradley",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-brewer.html",
+      "destination": "/toilet-repair-brewer",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-brownville-junction.html",
+      "destination": "/toilet-repair-brownville-junction",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-calais.html",
+      "destination": "/toilet-repair-calais",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-cape-neddick.html",
+      "destination": "/toilet-repair-cape-neddick",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-caribou.html",
+      "destination": "/toilet-repair-caribou",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-chisholm.html",
+      "destination": "/toilet-repair-chisholm",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-corinna.html",
+      "destination": "/toilet-repair-corinna",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-cornish.html",
+      "destination": "/toilet-repair-cornish",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-cousins-island.html",
+      "destination": "/toilet-repair-cousins-island",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-cumberland-center.html",
+      "destination": "/toilet-repair-cumberland-center",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-danforth.html",
+      "destination": "/toilet-repair-danforth",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-dunstan.html",
+      "destination": "/toilet-repair-dunstan",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-eastport.html",
+      "destination": "/toilet-repair-eastport",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-ellsworth.html",
+      "destination": "/toilet-repair-ellsworth",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-falmouth-foreside.html",
+      "destination": "/toilet-repair-falmouth-foreside",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-gardiner.html",
+      "destination": "/toilet-repair-gardiner",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-grand-isle.html",
+      "destination": "/toilet-repair-grand-isle",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-greene.html",
+      "destination": "/toilet-repair-greene",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-hallowell.html",
+      "destination": "/toilet-repair-hallowell",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-island-falls.html",
+      "destination": "/toilet-repair-island-falls",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-jonesport.html",
+      "destination": "/toilet-repair-jonesport",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-kezar-falls.html",
+      "destination": "/toilet-repair-kezar-falls",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-kingfield.html",
+      "destination": "/toilet-repair-kingfield",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-kittery-point.html",
+      "destination": "/toilet-repair-kittery-point",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-lake-arrowhead.html",
+      "destination": "/toilet-repair-lake-arrowhead",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-lewiston.html",
+      "destination": "/toilet-repair-lewiston",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-lisbon.html",
+      "destination": "/toilet-repair-lisbon",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-lisbon-falls.html",
+      "destination": "/toilet-repair-lisbon-falls",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-little-falls.html",
+      "destination": "/toilet-repair-little-falls",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-littlejohn-island.html",
+      "destination": "/toilet-repair-littlejohn-island",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-mattawamkeag.html",
+      "destination": "/toilet-repair-mattawamkeag",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-milbridge.html",
+      "destination": "/toilet-repair-milbridge",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-north-anson.html",
+      "destination": "/toilet-repair-north-anson",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-north-windham.html",
+      "destination": "/toilet-repair-north-windham",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-northeast-harbor.html",
+      "destination": "/toilet-repair-northeast-harbor",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-oakfield.html",
+      "destination": "/toilet-repair-oakfield",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-old-town.html",
+      "destination": "/toilet-repair-old-town",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-patten.html",
+      "destination": "/toilet-repair-patten",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-portland.html",
+      "destination": "/toilet-repair-portland",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-presque-isle.html",
+      "destination": "/toilet-repair-presque-isle",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-rangeley.html",
+      "destination": "/toilet-repair-rangeley",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-rockland.html",
+      "destination": "/toilet-repair-rockland",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-sabattus.html",
+      "destination": "/toilet-repair-sabattus",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-saco.html",
+      "destination": "/toilet-repair-saco",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-sanford.html",
+      "destination": "/toilet-repair-sanford",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-south-berwick.html",
+      "destination": "/toilet-repair-south-berwick",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-south-eliot.html",
+      "destination": "/toilet-repair-south-eliot",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-south-paris.html",
+      "destination": "/toilet-repair-south-paris",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-south-portland.html",
+      "destination": "/toilet-repair-south-portland",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-south-windham.html",
+      "destination": "/toilet-repair-south-windham",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-steep-falls.html",
+      "destination": "/toilet-repair-steep-falls",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-turner.html",
+      "destination": "/toilet-repair-turner",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-vanceboro.html",
+      "destination": "/toilet-repair-vanceboro",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-veazie.html",
+      "destination": "/toilet-repair-veazie",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-waterville.html",
+      "destination": "/toilet-repair-waterville",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-west-kennebunk.html",
+      "destination": "/toilet-repair-west-kennebunk",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-westbrook.html",
+      "destination": "/toilet-repair-westbrook",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-york-harbor.html",
+      "destination": "/toilet-repair-york-harbor",
+      "permanent": true
+    }
+  ]
+}
